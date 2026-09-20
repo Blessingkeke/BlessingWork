@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UH NSBE | FEB Positions</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background: #000;
+            color: #fff;
+            line-height: 1.6;
+        }
+
+        /* HEADER */
+        header {
+            background: #000;
+            border-bottom: 4px solid #d71920;
+            padding: 25px 8%;
+            text-align: center;
+        }
+
+        .logo {
+            font-size: 32px;
+            font-weight: 900;
+            letter-spacing: 2px;
+        }
+
+        .logo span {
+            color: #d71920;
+        }
+
+        header p {
+            color: #ccc;
+            margin-top: 5px;
+            font-size: 15px;
+        }
+
+        /* HERO */
+        .hero {
+            min-height: 360px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding: 60px 20px;
+            background:
+                linear-gradient(rgba(0,0,0,.82), rgba(0,0,0,.92)),
+                #111;
+        }
+
+        .hero-content {
+            max-width: 850px;
+        }
+
+        .hero h1 {
+            font-size: clamp(40px, 7vw, 72px);
+            font-weight: 900;
+            text-transform: uppercase;
+            margin-bottom: 15px;
+        }
+
+        .hero h1 span {
+            color: #d71920;
+        }
+
+        .hero p {
+            color: #ddd;
+            font-size: 18px;
+            max-width: 650px;
+            margin: auto;
+        }
+
+        .green-line {
+            width: 90px;
+            height: 5px;
+            background: #00843d;
+            margin: 25px auto;
+        }
+
+        /* POSITIONS */
+        .positions {
+            padding: 70px 8%;
+            background: #080808;
+        }
+
+        .section-title {
+            text-align: center;
+            margin-bottom: 45px;
+        }
+
+        .section-title h2 {
+            font-size: 36px;
+            text-transform: uppercase;
+        }
+
+        .section-title p {
+            color: #aaa;
+            margin-top: 8px;
+        }
+
+        .role-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 25px;
+            max-width: 1200px;
+            margin: auto;
+        }
+
+        /* ROLE CARDS */
+        .role-card {
+            background: #111;
+            border: 1px solid #333;
+            border-top: 5px solid #d71920;
+            padding: 30px;
+            border-radius: 8px;
+            transition: transform .25s ease, border-color .25s ease;
+        }
+
+        .role-card:hover {
+            transform: translateY(-7px);
+            border-color: #00843d;
+        }
+
+        .role-number {
+            color: #00843d;
+            font-weight: bold;
+            font-size: 14px;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            margin-bottom: 8px;
+        }
+
+        .role-card h3 {
+            font-size: 24px;
+            margin-bottom: 18px;
+            color: #fff;
+        }
+
+        .role-card ul {
+            padding-left: 20px;
+            color: #ccc;
+        }
+
+        .role-card li {
+            margin-bottom: 10px;
+        }
+
+        .role-card li::marker {
+            color: #d71920;
+        }
+
+        /* FOOTER */
+        footer {
+            background: #000;
+            border-top: 4px solid #00843d;
+            text-align: center;
+            padding: 30px 20px;
+        }
+
+        footer h3 {
+            color: #d71920;
+            margin-bottom: 5px;
+        }
+
+        footer p {
+            color: #888;
+            font-size: 14px;
+        }
+
+        /* MOBILE */
+        @media (max-width: 600px) {
+            header {
+                padding: 20px;
+            }
+
+            .hero {
+                min-height: 300px;
+            }
+
+            .positions {
+                padding: 50px 20px;
+            }
+
+            .role-card {
+                padding: 25px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <div class="logo">
+            UH <span>NSBE</span>
+        </div>
+        <p>FreshMoreFer Executive Board</p>
+    </header>
+
+
+    <section class="hero">
+        <div class="hero-content">
+
+            <div class="green-line"></div>
+
+            <h1>
+                FEB <span>Positions</span>
+            </h1>
+
+            <p>
+                Explore the available FreshMoreFer Executive Board
+                positions and the responsibilities that come with each role.
+            </p>
+
+            <div class="green-line"></div>
+
+        </div>
+    </section>
+
+
+    <section class="positions">
+
+        <div class="section-title">
+            <h2>Available Roles</h2>
+            <p>UH NSBE FreshMoreFer Executive Board</p>
+        </div>
+
+
+        <div class="role-grid">
+
+            <!-- PRESIDENT -->
+            <div class="role-card">
+                <div class="role-number">01 • Executive</div>
+                <h3>FEB President</h3>
+
+                <ul>
+                    <li>Define the vision for FEB with the VP and Parliamentarian.</li>
+                    <li>Lead FEB in creating diverse programming throughout the school year.</li>
+                    <li>Serve as a liaison between officers, organizations, and FEB.</li>
+                    <li>Work with Top 6 to identify member needs and additional FEB activities.</li>
+                </ul>
+            </div>
+
+
+            <!-- VICE PRESIDENT -->
+            <div class="role-card">
+                <div class="role-number">02 • Executive</div>
+                <h3>FEB Vice President</h3>
+
+                <ul>
+                    <li>Organize and lead FEB meetings.</li>
+                    <li>Ensure meetings effectively address member needs.</li>
+                    <li>Assist the President and Programs Chair with programming.</li>
+                    <li>Help establish relationships with other Black organizations on campus.</li>
+                </ul>
+            </div>
+
+
+            <!-- PROGRAMS -->
+            <div class="role-card">
+                <div class="role-number">03 • Programming</div>
+                <h3>FEB Programs Chair</h3>
+
+                <ul>
+                    <li>Help establish relationships with other Black organizations.</li>
+                    <li>Lead the execution of diverse FEB programming.</li>
+                    <li>Assist with tabling and outreach.</li>
+                    <li>Increase UH NSBE brand awareness and membership.</li>
+                </ul>
+            </div>
+
+
+            <!-- SECRETARY -->
+            <div class="role-card">
+                <div class="role-number">04 • Communications</div>
+                <h3>FEB Secretary</h3>
+
+                <ul>
+                    <li>Lead marketing efforts for FEB events and recaps.</li>
+                    <li>Help prepare GBM slides with the UH NSBE Secretary.</li>
+                    <li>Create and update the FEB transition document.</li>
+                    <li>Assist with the official UH NSBE TikTok.</li>
+                </ul>
+            </div>
+
+
+            <!-- TREASURER -->
+            <div class="role-card">
+                <div class="role-number">05 • Finance</div>
+                <h3>FEB Treasurer</h3>
+
+                <ul>
+                    <li>Manage the FEB budget and track expenses.</li>
+                    <li>Collaborate on allocating funds.</li>
+                    <li>Work with the UH NSBE Treasurer to secure funding.</li>
+                    <li>Maintain financial records and budget updates.</li>
+                </ul>
+            </div>
+
+
+            <!-- PROFESSIONAL DEVELOPMENT -->
+            <div class="role-card">
+                <div class="role-number">06 • Career Development</div>
+                <h3>FEB Professional Development Chair</h3>
+
+                <ul>
+                    <li>Organize professional development workshops.</li>
+                    <li>Connect students with leadership and soft-skill opportunities.</li>
+                    <li>Help create internship and leadership pipelines.</li>
+                    <li>Support career readiness among FreshMoreFer members.</li>
+                </ul>
+            </div>
+
+
+            <!-- BUSINESS INTELLIGENCE -->
+            <div class="role-card">
+                <div class="role-number">07 • Technology & Data</div>
+                <h3>FEB Business Intelligence Chair</h3>
+
+                <ul>
+                    <li>Shadow the UH NSBE BI Chair.</li>
+                    <li>Assist with membership databases and engagement tracking.</li>
+                    <li>Collaborate on career, mentorship, and leadership opportunities.</li>
+                    <li>Support Google Drive, website, and digital platforms.</li>
+                    <li>Assist with data visualizations.</li>
+                </ul>
+            </div>
+
+
+            <!-- SOCIAL -->
+            <div class="role-card">
+                <div class="role-number">08 • Community</div>
+                <h3>FEB Social Chair</h3>
+
+                <ul>
+                    <li>Plan and execute social events and activities.</li>
+                    <li>Build community and relationships among members.</li>
+                    <li>Collaborate with the UH NSBE Social/Membership Chair.</li>
+                    <li>Work with Programs and the President to balance the event calendar.</li>
+                    <li>Engage underclassmen and gather feedback for future events.</li>
+                </ul>
+            </div>
+
+        </div>
+    </section>
+
+
+    <footer>
+        <h3>UH NSBE</h3>
+        <p>FreshMoreFer Executive Board • Houston, Texas</p>
+    </footer>
+
+</body>
+</html>
